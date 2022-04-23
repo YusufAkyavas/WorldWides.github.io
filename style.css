@@ -1,3 +1,31 @@
 html{
-  font-size: 10px
+}
+head {
+  display: block;
+}
+header {
+  border-bottom: solid 5px;
+}
+#nav {
+  display: block;
+  text-align: center;
+}
+.collapsible {
+  display: block;
+  background-color: #F7CE5B;
+  cursor: context-menu;
+  padding: 10px;
+  width: 100%;
+  height: 5em;
+  border: none;
+  font-size: 15px;
+}
+.active, .collasbile:hover {
+  background-color: #ccc;
+}
+.collapsiblecontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
