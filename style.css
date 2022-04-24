@@ -1,5 +1,8 @@
 html{
 }
+body {
+  background-color: #F3E0EC;
+}
 head {
   display: block;
 }
@@ -9,6 +12,17 @@ header {
 #nav {
   display: block;
   text-align: center;
+}
+.teamprof {
+  display: block;
+  border: solid;
+  font-family: 'Didact Gothic';
+  margin: 2em;
+  background-color: #9AC6C5;
+}
+.person {
+  border-bottom: double;
+  margin: 3em;
 }
 .collapsible {
   display: block;
@@ -20,6 +34,7 @@ header {
   border: none;
   font-size: 15px;
 }
+
 .active, .collasbile:hover {
   background-color: #ccc;
 }
