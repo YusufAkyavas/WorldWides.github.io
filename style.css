@@ -13,6 +13,11 @@ header {
   display: block;
   text-align: center;
 }
+.personphoto {
+  height: 20%;
+  width: auto;
+  border: double;
+}
 .teamprof {
   display: block;
   border: solid;
@@ -23,6 +28,7 @@ header {
 .person {
   border-bottom: double;
   margin: 3em;
+  overflow: auto;
 }
 .collapsible {
   display: block;
