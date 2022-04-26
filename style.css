@@ -1,29 +1,45 @@
 html{
 }
 body {
-  background-color: #F3E0EC;
+  background-color: #ECD8E0;
 }
 head {
   display: block;
 }
 header {
   border-bottom: solid 5px;
+  text-align: center;
+}
+h1 {
+  border: solid 3px;
+  background-color: #BAD8E0;
 }
 #nav {
   display: block;
   text-align: center;
 }
+.navbord {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: inherit;
+  padding: 0.5em;
+  background-color: #BAD8E0;
+}
+.navbord:hover {
+  background-color: #ffcad4;
+}
 .personphoto {
   height: 20%;
   width: auto;
   border: double;
+  float: left;
 }
 .teamprof {
   display: block;
   border: solid;
   font-family: 'Didact Gothic';
   margin: 2em;
-  background-color: #9AC6C5;
+  background-color: #FFD5B6;
 }
 .person {
   border-bottom: double;
