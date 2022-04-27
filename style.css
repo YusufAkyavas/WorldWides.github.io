@@ -18,6 +18,10 @@ h1 {
   display: block;
   text-align: center;
 }
+.earth {
+  width: auto;
+  height: 100px
+}
 .navbord {
   border-bottom: solid 2px;
   border-top: solid 2px;
