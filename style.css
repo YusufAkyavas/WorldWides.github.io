@@ -1,3 +1,4 @@
+/* page wide defintions */
 body {
   /* green color for earth vibes */
   background-color: Honeydew;
@@ -12,29 +13,8 @@ header {
   border-bottom: solid 5px;
   text-align: center;
 }
-h1 {
-  border: solid 3px;
-  font-size: 200%;
-  background-color: #BAD8E0;
-}
-article h2 {
-  margin-left: 2em;
-  margin-top: 2em;
-}
 
-
-/* link colors */
-a:link {
-  color: darkblue;
-}
-a:visited {
-color: green;
-}
-
-a:link:active, a:visited:active {
-  color: mediumaquamarine;
-}
-
+/* navbar css */
 #nav {
   display: block;
   text-align: center;
@@ -53,6 +33,63 @@ a:link:active, a:visited:active {
 .navbord:hover {
   background-color: #D8E6D8;
 }
+
+/* link colors */
+a:link { 
+  color: darkblue;
+}
+a:visited {
+color: green;
+}
+
+a:link:active, a:visited:active { 
+  color: mediumaquamarine;
+}
+
+
+h1 {
+  border: solid 3px;
+  font-size: 200%;
+  background-color: #BAD8E0;
+}
+
+
+/* uniform content class */
+.content {
+  background-color: #B4BFB4;
+  /* center div */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  justify-content: center;
+  /* max-width instead of margin to support multiple aspect ratios */
+  max-width: 800px;
+  font-family: 'Didact Gothic';
+  display: block;
+  border: solid; 
+  
+}
+
+.content h2 {
+  margin-left: 1.3em;
+  margin-top: 2em;
+}
+
+.content p:not(.person > p){
+  margin: 2em;
+}
+
+.content button {
+  padding: 2em;
+}
+
+/* if i merge persons into content it just breaks so we leave it in */
+.person {
+  border-bottom: double;
+  margin: 2em;
+  overflow: auto;
+}
+
 .personphoto {
   height: 20%;
   width: auto;
@@ -61,24 +98,8 @@ a:link:active, a:visited:active {
   /* img was right next to text so fixed that */
   margin: 2%;
 }
-.teamprof {
-  display: block;
-  border: solid;
-  font-family: 'Didact Gothic';
-  /* max-width instead of margin to support multiple aspect ratios */
-  max-width: 800px;
-  /* center div */
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  /* green colors for earthy vibes */
-  background-color: #B4BFB4;
-}
-.person {
-  border-bottom: double;
-  margin: 3em;
-  overflow: auto;
-}
+
+/* lets button hide and show text */
 .collapsible {
   display: block;
   background-color: #B4BFB4;
