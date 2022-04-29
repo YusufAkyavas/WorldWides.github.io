@@ -24,14 +24,14 @@ article h2 {
 
 
 /* link colors */
-a:link { 
+a:link {
   color: darkblue;
 }
 a:visited {
 color: green;
 }
 
-a:link:active, a:visited:active { 
+a:link:active, a:visited:active {
   color: mediumaquamarine;
 }
 
@@ -81,7 +81,7 @@ a:link:active, a:visited:active {
 }
 .collapsible {
   display: block;
-  background-color: #F7CE5B;
+  background-color: #B4BFB4;
   cursor: context-menu;
   padding: 10px;
   width: 100%;
