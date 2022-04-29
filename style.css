@@ -35,14 +35,14 @@ header {
 }
 
 /* link colors */
-a:link { 
+a:link {
   color: darkblue;
 }
 a:visited {
 color: green;
 }
 
-a:link:active, a:visited:active { 
+a:link:active, a:visited:active {
   color: mediumaquamarine;
 }
 
@@ -66,8 +66,8 @@ h1 {
   max-width: 800px;
   font-family: 'Didact Gothic';
   display: block;
-  border: solid; 
-  
+  border: solid;
+
 }
 
 .content h2 {
@@ -105,7 +105,12 @@ h1 {
   background-color: #B4BFB4;
   cursor: context-menu;
   padding: 10px;
+  margin: 2px;
   width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
   height: 5em;
   border: none;
   font-size: 15px;
@@ -119,4 +124,10 @@ h1 {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  border: none;
+  font-size: 15px;
 }
