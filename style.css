@@ -1,7 +1,9 @@
-html{
-}
 body {
-  background-color: #ECD8E0;
+  /* green color for earth vibes */
+  background-color: Honeydew;
+  color: DarkSlateGray;
+  font-size: 120%;
+  margin: auto;
 }
 head {
   display: block;
@@ -12,8 +14,27 @@ header {
 }
 h1 {
   border: solid 3px;
+  font-size: 200%;
   background-color: #BAD8E0;
 }
+article h2 {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+
+/* link colors */
+a:link { 
+  color: darkblue;
+}
+a:visited {
+color: green;
+}
+
+a:link:active, a:visited:active { 
+  color: mediumaquamarine;
+}
+
 #nav {
   display: block;
   text-align: center;
@@ -30,20 +51,28 @@ h1 {
   background-color: #BAD8E0;
 }
 .navbord:hover {
-  background-color: #ffcad4;
+  background-color: #D8E6D8;
 }
 .personphoto {
   height: 20%;
   width: auto;
   border: double;
   float: left;
+  /* img was right next to text so fixed that */
+  margin: 2%;
 }
 .teamprof {
   display: block;
   border: solid;
   font-family: 'Didact Gothic';
-  margin: 2em;
-  background-color: #FFD5B6;
+  /* max-width instead of margin to support multiple aspect ratios */
+  max-width: 800px;
+  /* center div */
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  /* green colors for earthy vibes */
+  background-color: #B4BFB4;
 }
 .person {
   border-bottom: double;
