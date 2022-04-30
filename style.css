@@ -131,3 +131,9 @@ h1 {
   border: none;
   font-size: 15px;
 }
+.testphoto {
+  border-bottom: solid 2px;
+  height: auto;
+  max-width: 750px;
+  display: block;
+}
