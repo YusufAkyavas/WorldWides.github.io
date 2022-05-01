@@ -118,7 +118,7 @@ h1 {
 /* lets button hide and show text */
 .collapsible {
   display: block;
-  background-color: #B4BFB4;
+  background-color: #7a9e7a;
   cursor: context-menu;
   padding: 10px;
   margin: 2px;
@@ -133,7 +133,7 @@ h1 {
 }
 
 .active, .collasbile:hover {
-  background-color: #ccc;
+  background-color: #93b593;
 }
 .collapsiblecontent {
   padding: 0 18px;
