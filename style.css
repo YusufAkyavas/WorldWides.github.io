@@ -70,7 +70,7 @@ h1 {
 
 }
 
-.content h2 {
+.content h2,h3 {
   margin-left: 1.3em;
   margin-top: 2em;
 }
